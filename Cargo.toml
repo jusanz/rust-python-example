@@ -1,5 +1,5 @@
 [package]
-name = "tokyomotion"
+name = "otepia"
 version = "0.1.0"
 edition = "2021"
 
@@ -8,3 +8,5 @@ edition = "2021"
 [dependencies]
 rusqlite = { version = "0.27.0", features = ["bundled"] }
 pyo3 = {version = "0.16.1", features = ["auto-initialize"]}
+rpassword = "5.0.1"
+regex = "1.5.5"
